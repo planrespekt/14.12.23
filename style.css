@@ -1,0 +1,28 @@
+/* CSS Transition */
+.icon-container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.2);
+  }
+  
+  /* CSS Animation */
+  .animated-title {
+    animation: color-change 2s infinite;
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: red;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: green;
+    }
+  }
